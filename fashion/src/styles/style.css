@@ -1,0 +1,40 @@
+:root {
+  --textColor: #000;
+  --yellow: #ebd96b;
+  --gray: #7f7f7f;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--textColor);
+}
+
+.container {
+  max-width: 1780px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 30px;
+}
+
+.title-2 {
+  display: inline-block;
+  position: relative;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.04; /* 104.167% */
+  letter-spacing: 2.88px;
+  margin-bottom: 114px;
+}
+
+.title-2::after {
+  content: "";
+
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  bottom: 0px;
+  width: 190px;
+  height: 32px;
+
+  background-image: url(./.././img/icons/yellow-line.svg);
+}
