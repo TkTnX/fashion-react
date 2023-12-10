@@ -1,0 +1,129 @@
+.footer {
+  margin-top: 220px;
+}
+
+.footer__top {
+  padding: 141px 0 156px;
+  text-align: center;
+  background-color: #e5c643;
+}
+
+.footer__title {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 1.27; /* 127.273% */
+  letter-spacing: 1.65px;
+}
+
+.footer__subtitle {
+  color: #fffcf8;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.09; /* 109.375% */
+  letter-spacing: 0.96px;
+}
+
+.footer__btn {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 1.06; /* 106.061% */
+  letter-spacing: 0.99px;
+  text-transform: capitalize;
+
+  background-color: var(--textColor);
+  border-radius: 8px;
+
+  padding: 17px 35px 15px 38px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 49px;
+  max-width: 574px;
+
+  background-color: white;
+  border-radius: 10px;
+
+  padding: 10px;
+}
+
+.footer__input {
+  width: 100%;
+}
+
+.footer__input::placeholder {
+  margin-left: 27px;
+  color: var(--gray);
+}
+
+.footer__bottom {
+  background-color: var(--textColor);
+  padding: 119px 0 147px;
+}
+
+.footer__bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__c-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.footer__c-subtitle {
+  margin-top: 32px;
+
+  color: #8e8e8e;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.4px;
+
+  max-width: 415px;
+}
+
+.footer__icons-list {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+
+  margin-top: 32px;
+}
+
+.footer__categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0 20px;
+  padding-right: 100px;
+}
+
+.footer__list-title {
+  color: #d9d9d9;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.4px;
+}
+
+.footer__company-link,
+.footer__quickLink-link,
+.footer__legal-link {
+  color: #8e8e8e;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3; /* 200% */
+  letter-spacing: 0.4px;
+}

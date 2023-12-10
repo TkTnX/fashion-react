@@ -1,0 +1,9 @@
+.young {
+  margin-top: 187px;
+}
+
+.young__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+}
